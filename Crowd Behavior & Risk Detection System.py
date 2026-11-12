@@ -41,7 +41,7 @@ class App(ctk.CTk):
         self.sidebar.pack_propagate(False)
 
         title = ctk.CTkLabel(
-            self.sidebar, text="🛡️  Crowd Sentinel",
+            self.sidebar, text="🛡️ ZaBir HaSan",
             font=ctk.CTkFont(size=22, weight="bold"),
         )
         title.pack(pady=(24, 4), padx=20, anchor="w")
